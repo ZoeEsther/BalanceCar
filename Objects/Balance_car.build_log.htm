@@ -1,0 +1,267 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: yiming fan, Microsoft, LIC=GE730-B91BV-MQT0F-6Q0JZ-XQR6D-NM0KE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  D:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      UL2CM3.DLL V1.157.5.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\樊一鸣\Desktop\工教高项目\Balance_car.uvprojx
+Project File Date:  05/07/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Rebuild target 'BalancingCar'
+compiling stm32f10x_dma.c...
+FWlib\Src\stm32f10x_dma.c(12): error:  #5: cannot open source input file "stm32f10x_dma.h": No such file or directory
+  #include "stm32f10x_dma.h"
+FWlib\Src\stm32f10x_dma.c: 0 warnings, 1 error
+compiling stm32f10x_exti.c...
+FWlib\Src\stm32f10x_exti.c(23): error:  #5: cannot open source input file "stm32f10x_exti.h": No such file or directory
+  #include "stm32f10x_exti.h"
+FWlib\Src\stm32f10x_exti.c: 0 warnings, 1 error
+compiling misc.c...
+FWlib\Src\misc.c(12): error:  #5: cannot open source input file "misc.h": No such file or directory
+  #include "misc.h"
+FWlib\Src\misc.c: 0 warnings, 1 error
+compiling stm32f10x_i2c.c...
+FWlib\Src\stm32f10x_i2c.c(23): error:  #5: cannot open source input file "stm32f10x_i2c.h": No such file or directory
+  #include "stm32f10x_i2c.h"
+FWlib\Src\stm32f10x_i2c.c: 0 warnings, 1 error
+compiling stm32f10x_rcc.c...
+FWlib\Src\stm32f10x_rcc.c(23): error:  #5: cannot open source input file "stm32f10x_rcc.h": No such file or directory
+  #include "stm32f10x_rcc.h"
+FWlib\Src\stm32f10x_rcc.c: 0 warnings, 1 error
+compiling stm32f10x_gpio.c...
+FWlib\Src\stm32f10x_gpio.c(23): error:  #5: cannot open source input file "stm32f10x_gpio.h": No such file or directory
+  #include "stm32f10x_gpio.h"
+FWlib\Src\stm32f10x_gpio.c: 0 warnings, 1 error
+compiling stm32f10x_adc.c...
+FWlib\Src\stm32f10x_adc.c(23): error:  #5: cannot open source input file "stm32f10x_adc.h": No such file or directory
+  #include "stm32f10x_adc.h"
+FWlib\Src\stm32f10x_adc.c: 0 warnings, 1 error
+compiling stm32f10x_tim.c...
+FWlib\Src\stm32f10x_tim.c(23): error:  #5: cannot open source input file "stm32f10x_tim.h": No such file or directory
+  #include "stm32f10x_tim.h"
+FWlib\Src\stm32f10x_tim.c: 0 warnings, 1 error
+compiling stm32f10x_usart.c...
+FWlib\Src\stm32f10x_usart.c(23): error:  #5: cannot open source input file "stm32f10x_usart.h": No such file or directory
+  #include "stm32f10x_usart.h"
+FWlib\Src\stm32f10x_usart.c: 0 warnings, 1 error
+compiling stm32f10x_flash.c...
+FWlib\Src\stm32f10x_flash.c(23): error:  #5: cannot open source input file "stm32f10x_flash.h": No such file or directory
+  #include "stm32f10x_flash.h"
+FWlib\Src\stm32f10x_flash.c: 0 warnings, 1 error
+assembling startup_stm32f10x_md.s...
+compiling core_cm3.c...
+compiling bsp.c...
+user\Src\bsp.c(11): error:  #5: cannot open source input file "stm32f10x_gpio.h": No such file or directory
+  #include "stm32f10x_gpio.h"
+user\Src\bsp.c: 0 warnings, 1 error
+compiling system_stm32f10x.c...
+compiling MPU6050.c...
+user\Src\MPU6050.c(10): error:  #5: cannot open source input file "I2C.h": No such file or directory
+  #include "I2C.h"
+user\Src\MPU6050.c: 0 warnings, 1 error
+compiling ADC.c...
+user\Src\ADC.c(11): error:  #5: cannot open source input file "stm32f10x_adc.h": No such file or directory
+  #include "stm32f10x_adc.h"
+user\Src\ADC.c: 0 warnings, 1 error
+compiling oled.c...
+user\Src\oled.c(9): error:  #5: cannot open source input file "stm32f10x_gpio.h": No such file or directory
+  #include "stm32f10x_gpio.h"
+user\Src\oled.c: 0 warnings, 1 error
+compiling ultrasonic.c...
+user\Src\ultrasonic.c(10): error:  #5: cannot open source input file "stm32f10x_gpio.h": No such file or directory
+  #include "stm32f10x_gpio.h"
+user\Src\ultrasonic.c: 0 warnings, 1 error
+compiling I2C.c...
+user\Src\I2C.c(11): error:  #5: cannot open source input file "I2C.h": No such file or directory
+  #include "I2C.h"
+user\Src\I2C.c: 0 warnings, 1 error
+compiling usart.c...
+user\Src\usart.c(11): error:  #5: cannot open source input file "usart.h": No such file or directory
+  #include "usart.h"
+user\Src\usart.c: 0 warnings, 1 error
+compiling debug.c...
+user\Src\debug.c(10): error:  #5: cannot open source input file "common.h": No such file or directory
+  #include "common.h"
+user\Src\debug.c: 0 warnings, 1 error
+compiling systick.c...
+user\Src\systick.c(11): error:  #5: cannot open source input file "SysTick.h": No such file or directory
+  #include "SysTick.h"
+user\Src\systick.c: 0 warnings, 1 error
+compiling motor.c...
+user\Src\motor.c(19): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+  	GPIO_InitTypeDef GPIO_InitStructure;
+user\Src\motor.c(22): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+  	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE); 
+user\Src\motor.c(22): error:  #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+  	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE); 
+user\Src\motor.c(23): error:  #20: identifier "RCC_APB2Periph_GPIOB" is undefined
+  	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE); 
+user\Src\motor.c(25): error:  #20: identifier "GPIO_Pin_3" is undefined
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3 | GPIO_Pin_4;	
+user\Src\motor.c(25): error:  #20: identifier "GPIO_Pin_4" is undefined
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3 | GPIO_Pin_4;	
+user\Src\motor.c(26): error:  #20: identifier "GPIO_Mode_Out_PP" is undefined
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;   
+user\Src\motor.c(27): error:  #20: identifier "GPIO_Speed_50MHz" is undefined
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz; 
+user\Src\motor.c(29): warning:  #223-D: function "GPIO_Init" declared implicitly
+  	GPIO_Init(GPIOA, &GPIO_InitStructure);
+user\Src\motor.c(31): error:  #20: identifier "GPIO_Pin_0" is undefined
+  	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0 | GPIO_Pin_1;
+user\Src\motor.c(31): error:  #20: identifier "GPIO_Pin_1" is undefined
+  	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0 | GPIO_Pin_1;
+user\Src\motor.c(35): warning:  #223-D: function "GPIO_SetBits" declared implicitly
+  	GPIO_SetBits(GPIOA, GPIO_Pin_3 | GPIO_Pin_4);
+user\Src\motor.c(53): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+    GPIO_InitTypeDef GPIO_InitStructure;
+user\Src\motor.c(57): warning:  #223-D: function "RCC_APB1PeriphClockCmd" declared implicitly
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE); 
+user\Src\motor.c(57): error:  #20: identifier "RCC_APB1Periph_TIM3" is undefined
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE); 
+user\Src\motor.c(60): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE); 
+user\Src\motor.c(60): error:  #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE); 
+user\Src\motor.c(61): error:  #20: identifier "RCC_APB2Periph_GPIOB" is undefined
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE); 
+user\Src\motor.c(64): error:  #20: identifier "GPIO_Pin_6" is undefined
+    GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_6 | GPIO_Pin_7;
+user\Src\motor.c(64): error:  #20: identifier "GPIO_Pin_7" is undefined
+    GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_6 | GPIO_Pin_7;
+user\Src\motor.c(65): error:  #20: identifier "GPIO_Mode_AF_PP" is undefined
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;		    // 复???????涑?
+user\Src\motor.c(66): error:  #20: identifier "GPIO_Speed_50MHz" is undefined
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+user\Src\motor.c(68): warning:  #223-D: function "GPIO_Init" declared implicitly
+    GPIO_Init(GPIOA, &GPIO_InitStructure);
+user\Src\motor.c(81): error:  #20: identifier "TIM_TimeBaseInitTypeDef" is undefined
+  	TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
+user\Src\motor.c(82): error:  #20: identifier "TIM_OCInitTypeDef" is undefined
+  	TIM_OCInitTypeDef  TIM_OCInitStructure;
+user\Src\motor.c(103): error:  #20: identifier "TIM_CKD_DIV1" is undefined
+    TIM_TimeBaseStructure.TIM_ClockDivision = TIM_CKD_DIV1 ;	//????时?臃?频系?翰环?频
+user\Src\motor.c(104): error:  #20: identifier "TIM_CounterMode_Up" is undefined
+    TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;  //???霞???模式
+user\Src\motor.c(105): warning:  #223-D: function "TIM_TimeBaseInit" declared implicitly
+    TIM_TimeBaseInit(TIM3, &TIM_TimeBaseStructure);
+user\Src\motor.c(108): error:  #20: identifier "TIM_OCMode_PWM1" is undefined
+    TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM1;	    //????为PWM模式1
+user\Src\motor.c(109): error:  #20: identifier "TIM_OutputState_Enable" is undefined
+    TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;	
+user\Src\motor.c(111): error:  #20: identifier "TIM_OCPolarity_High" is undefined
+    TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;  //当定时?骷???值小??CCR1_Val时为?叩?平
+user\Src\motor.c(114): warning:  #223-D: function "TIM_OC1Init" declared implicitly
+    TIM_OC1Init(TIM3, &TIM_OCInitStructure);	  //使??通??1
+user\Src\motor.c(115): warning:  #223-D: function "TIM_OC1PreloadConfig" declared implicitly
+    TIM_OC1PreloadConfig(TIM3, TIM_OCPreload_Enable);
+user\Src\motor.c(115): error:  #20: identifier "TIM_OCPreload_Enable" is undefined
+    TIM_OC1PreloadConfig(
+IM3, TIM_OCPreload_Enable);
+user\Src\motor.c(118): warning:  #223-D: function "TIM_OC2Init" declared implicitly
+    TIM_OC2Init(TIM3, &TIM_OCInitStructure);	  //使??通??3
+user\Src\motor.c(119): warning:  #223-D: function "TIM_OC2PreloadConfig" declared implicitly
+    TIM_OC2PreloadConfig(TIM3, TIM_OCPreload_Enable);
+user\Src\motor.c(122): warning:  #223-D: function "TIM_OC3Init" declared implicitly
+    TIM_OC3Init(TIM3, &TIM_OCInitStructure);	 //使??通??3
+user\Src\motor.c(123): warning:  #223-D: function "TIM_OC3PreloadConfig" declared implicitly
+    TIM_OC3PreloadConfig(TIM3, TIM_OCPreload_Enable);
+user\Src\motor.c(126): warning:  #223-D: function "TIM_OC4Init" declared implicitly
+     TIM_OC4Init(TIM3, &TIM_OCInitStructure);	  //使??通??4
+user\Src\motor.c(127): warning:  #223-D: function "TIM_OC4PreloadConfig" declared implicitly
+     TIM_OC4PreloadConfig(TIM3, TIM_OCPreload_Enable);
+user\Src\motor.c(130): warning:  #223-D: function "TIM_ARRPreloadConfig" declared implicitly
+    TIM_ARRPreloadConfig(TIM3, ENABLE);			 // 使??TIM3???丶拇???ARR
+user\Src\motor.c(133): warning:  #223-D: function "TIM_Cmd" declared implicitly
+    TIM_Cmd(TIM3, ENABLE);                   //使?芏?时??2	
+user\Src\motor.c(149): error:  #20: identifier "TIM_TimeBaseInitTypeDef" is undefined
+    TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
+user\Src\motor.c(150): error:  #20: identifier "TIM_ICInitTypeDef" is undefined
+    TIM_ICInitTypeDef TIM_ICInitStructure;
+user\Src\motor.c(153): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+    GPIO_InitTypeDef GPIO_InitStructure;
+user\Src\motor.c(154): error:  #20: identifier "NVIC_InitTypeDef" is undefined
+    NVIC_InitTypeDef NVIC_InitStructure;
+user\Src\motor.c(157): warning:  #223-D: function "RCC_APB1PeriphClockCmd" declared implicitly
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
+user\Src\motor.c(157): error:  #20: identifier "RCC_APB1Periph_TIM2" is undefined
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
+user\Src\motor.c: 18 warnings, 30 errors
+compiling common.c...
+user\Src\common.c(12): error:  #5: cannot open source input file "common.h": No such file or directory
+  #include "common.h"
+user\Src\common.c: 0 warnings, 1 error
+compiling stm32f10x_it.c...
+user\stm32f10x_it.c(27): error:  #5: cannot open source input file "control.h": No such file or directory
+  #include "control.h"
+user\stm32f10x_it.c: 0 warnings, 1 error
+compiling control.c...
+user\Src\control.c(20): error:  #5: cannot open source input file "control.h": No such file or directory
+  #include "control.h"
+user\Src\control.c: 0 warnings, 1 error
+compiling communication.c...
+user\Src\communication.c(14): error:  #5: cannot open source input file "communicate.h": No such file or directory
+  #include "communicate.h"
+user\Src\communication.c: 0 warnings, 1 error
+compiling main.c...
+user\Src\main.c(10): error:  #5: cannot open source input file "usart.h": No such file or directory
+  #include "usart.h"
+user\Src\main.c: 0 warnings, 1 error
+compiling display.c...
+user\Src\display.c(9): error:  #5: cannot open source input file "oled.h": No such file or directory
+  #include "oled.h"
+user\Src\display.c: 0 warnings, 1 error
+compiling dataflash.c...
+user\Src\dataflash.c(11): error:  #5: cannot open source input file "stm32f10x_flash.h": No such file or directory
+  #include "stm32f10x_flash.h"
+user\Src\dataflash.c: 0 warnings, 1 error
+compiling manage.c...
+user\Src\manage.c(11): error:  #5: cannot open source input file "manage.h": No such file or directory
+  #include "manage.h"
+user\Src\manage.c: 0 warnings, 1 error
+".\Objects\Balance_car.axf" - 57 Error(s), 18 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_BalancingCar
+  D:\keil5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Target not created.
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>
