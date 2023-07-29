@@ -1,0 +1,16 @@
+.\i2c.o: user\Src\I2C.c
+.\i2c.o: .\user\Inc\I2C.h
+.\i2c.o: .\CMSIS\stm32f10x.h
+.\i2c.o: .\CMSIS\core_cm3.h
+.\i2c.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\i2c.o: .\CMSIS\system_stm32f10x.h
+.\i2c.o: .\user\stm32f10x_conf.h
+.\i2c.o: .\FWlib\Inc\stm32f10x_dma.h
+.\i2c.o: .\CMSIS\stm32f10x.h
+.\i2c.o: .\FWlib\Inc\stm32f10x_exti.h
+.\i2c.o: .\FWlib\Inc\stm32f10x_gpio.h
+.\i2c.o: .\FWlib\Inc\stm32f10x_i2c.h
+.\i2c.o: .\FWlib\Inc\stm32f10x_rcc.h
+.\i2c.o: .\FWlib\Inc\stm32f10x_tim.h
+.\i2c.o: .\FWlib\Inc\stm32f10x_usart.h
+.\i2c.o: .\FWlib\Inc\misc.h

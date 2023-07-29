@@ -1,0 +1,16 @@
+.\systick_1.o: user\Src\systick.c
+.\systick_1.o: .\CMSIS\stm32f10x.h
+.\systick_1.o: .\CMSIS\core_cm3.h
+.\systick_1.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\systick_1.o: .\CMSIS\system_stm32f10x.h
+.\systick_1.o: .\user\stm32f10x_conf.h
+.\systick_1.o: .\FWlib\Inc\stm32f10x_dma.h
+.\systick_1.o: .\CMSIS\stm32f10x.h
+.\systick_1.o: .\FWlib\Inc\stm32f10x_exti.h
+.\systick_1.o: .\FWlib\Inc\stm32f10x_gpio.h
+.\systick_1.o: .\FWlib\Inc\stm32f10x_i2c.h
+.\systick_1.o: .\FWlib\Inc\stm32f10x_rcc.h
+.\systick_1.o: .\FWlib\Inc\stm32f10x_tim.h
+.\systick_1.o: .\FWlib\Inc\stm32f10x_usart.h
+.\systick_1.o: .\FWlib\Inc\misc.h
+.\systick_1.o: .\user\Inc\SysTick.h

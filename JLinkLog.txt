@@ -1,0 +1,30 @@
+
+T26E0 042:659 SEGGER J-Link V5.10h Log File (0010ms, 0026ms total)
+T26E0 042:659 DLL Compiled: Jan 21 2016 19:24:29 (0010ms, 0026ms total)
+T26E0 042:659 Logging started @ 2020-04-24 17:22 (0010ms, 0026ms total)
+T26E0 042:669 JLINK_SetWarnOutHandler(...) (0000ms, 0026ms total)
+T26E0 042:669 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0001ms, 0027ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T26E0 042:671 
+  ***** Error: Can not connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0002ms, 0029ms total)
+T26E0 070:722 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000004)   returns 0x00 (0000ms, 0029ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T26E0 070:723 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_GetFirmwareString function called before JLINKARM_Open()
+T26E0 073:905 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_GetFeatureString function called before JLINKARM_Open()
+T26E0 073:906 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_GetEmuCaps function called before JLINKARM_Open()
+T26E0 073:907 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_TIF_GetAvailable function called before JLINKARM_Open()
+T26E0 073:908 
+  ***** Error: Can not connect to J-Link via USB.JLINK_Close() (0000ms, 0033ms total)
+T26E0 089:681  (0000ms, 0033ms total)
+T26E0 089:681 Closed (0000ms, 0033ms total)

@@ -1,0 +1,16 @@
+.\led.o: user\Src\led.c
+.\led.o: .\CMSIS\stm32f10x.h
+.\led.o: .\CMSIS\core_cm3.h
+.\led.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\led.o: .\CMSIS\system_stm32f10x.h
+.\led.o: .\user\stm32f10x_conf.h
+.\led.o: .\FWlib\Inc\stm32f10x_dma.h
+.\led.o: .\CMSIS\stm32f10x.h
+.\led.o: .\FWlib\Inc\stm32f10x_exti.h
+.\led.o: .\FWlib\Inc\stm32f10x_gpio.h
+.\led.o: .\FWlib\Inc\stm32f10x_i2c.h
+.\led.o: .\FWlib\Inc\stm32f10x_rcc.h
+.\led.o: .\FWlib\Inc\stm32f10x_tim.h
+.\led.o: .\FWlib\Inc\stm32f10x_usart.h
+.\led.o: .\FWlib\Inc\misc.h
+.\led.o: .\user\Inc\led.h

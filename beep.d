@@ -1,0 +1,16 @@
+.\beep.o: user\Src\beep.c
+.\beep.o: .\user\Inc\beep.h
+.\beep.o: .\CMSIS\stm32f10x.h
+.\beep.o: .\CMSIS\core_cm3.h
+.\beep.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\beep.o: .\CMSIS\system_stm32f10x.h
+.\beep.o: .\user\stm32f10x_conf.h
+.\beep.o: .\FWlib\Inc\stm32f10x_dma.h
+.\beep.o: .\CMSIS\stm32f10x.h
+.\beep.o: .\FWlib\Inc\stm32f10x_exti.h
+.\beep.o: .\FWlib\Inc\stm32f10x_gpio.h
+.\beep.o: .\FWlib\Inc\stm32f10x_i2c.h
+.\beep.o: .\FWlib\Inc\stm32f10x_rcc.h
+.\beep.o: .\FWlib\Inc\stm32f10x_tim.h
+.\beep.o: .\FWlib\Inc\stm32f10x_usart.h
+.\beep.o: .\FWlib\Inc\misc.h

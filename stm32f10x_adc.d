@@ -1,0 +1,16 @@
+.\stm32f10x_adc.o: FWlib\Src\stm32f10x_adc.c
+.\stm32f10x_adc.o: .\FWlib\Inc\stm32f10x_adc.h
+.\stm32f10x_adc.o: .\CMSIS\stm32f10x.h
+.\stm32f10x_adc.o: .\CMSIS\core_cm3.h
+.\stm32f10x_adc.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32f10x_adc.o: .\CMSIS\system_stm32f10x.h
+.\stm32f10x_adc.o: .\user\stm32f10x_conf.h
+.\stm32f10x_adc.o: .\FWlib\Inc\stm32f10x_dma.h
+.\stm32f10x_adc.o: .\CMSIS\stm32f10x.h
+.\stm32f10x_adc.o: .\FWlib\Inc\stm32f10x_exti.h
+.\stm32f10x_adc.o: .\FWlib\Inc\stm32f10x_gpio.h
+.\stm32f10x_adc.o: .\FWlib\Inc\stm32f10x_i2c.h
+.\stm32f10x_adc.o: .\FWlib\Inc\stm32f10x_rcc.h
+.\stm32f10x_adc.o: .\FWlib\Inc\stm32f10x_tim.h
+.\stm32f10x_adc.o: .\FWlib\Inc\stm32f10x_usart.h
+.\stm32f10x_adc.o: .\FWlib\Inc\misc.h

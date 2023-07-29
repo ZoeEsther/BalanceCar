@@ -1,0 +1,15 @@
+.\motor.o: user\Src\motor.c
+.\motor.o: .\CMSIS\stm32f10x.h
+.\motor.o: .\CMSIS\core_cm3.h
+.\motor.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\motor.o: .\CMSIS\system_stm32f10x.h
+.\motor.o: .\user\stm32f10x_conf.h
+.\motor.o: .\FWlib\Inc\stm32f10x_dma.h
+.\motor.o: .\CMSIS\stm32f10x.h
+.\motor.o: .\FWlib\Inc\stm32f10x_exti.h
+.\motor.o: .\FWlib\Inc\stm32f10x_gpio.h
+.\motor.o: .\FWlib\Inc\stm32f10x_i2c.h
+.\motor.o: .\FWlib\Inc\stm32f10x_rcc.h
+.\motor.o: .\FWlib\Inc\stm32f10x_tim.h
+.\motor.o: .\FWlib\Inc\stm32f10x_usart.h
+.\motor.o: .\FWlib\Inc\misc.h
